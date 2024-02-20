@@ -1,1 +1,103 @@
-/* Add screen styles below */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+:root{
+    --main-bg-color:#E3E3E3;
+    --primary-text-color:#424242;
+    --accent-color:#FF3F3C;
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Inter"; sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    background: url('Polaroid.png') no-repeat center 100px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.hero {
+    text-align: center;
+    min-height: 800px;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    padding-right: 175px;
+    padding-left: 175px;
+    font-size: 20px;
+}
+
+.details ul li {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0 0 0 192px;
+}
+
+.details ul li.wifi {
+    background: url('wifi-solid.svg') no-repeat center left 15%;
+}
+
+.details ul li.cloud {
+    background: url('cloud-solid.svg') no-repeat center left 15%;
+}
+
+.details ul li.qr {
+    background: url('qrcode-solid.svg') no-repeat center left 15%;
+}
+
+.details ul li.photos {
+    background: url('photos-solid.svg') no-repeat center left 15%;
+}
+
+input[type="text"] {
+    margin-left: 220px;
+    background-color: #ECEDEC;
+    border: none;
+    width: 370px;
+    height: 60px;
+    padding: 0 16px;
+    font-size: 16px;
+  }
+
+input[type="button"] {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    margin-left: 5px;
+    border: none;
+    width: 160px;
+    height: 60px;
+    padding: 0 16px;
+    color: white;
+    background-color: #FF3F3C;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
